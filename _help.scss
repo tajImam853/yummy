@@ -1,0 +1,85 @@
+.help{
+
+    .helpline{
+
+        h5{
+          
+           @include h5maintag;
+        }
+
+        h1{
+            text-align: center;
+            font-family: 'Poor Story', cursive;
+            font-size: map-get($fonts, "scndsize" );
+        
+
+        }
+
+        span{
+
+            color: red;
+        }
+    }
+
+    .leftimg{
+        display: flex;
+        .rsvrtn{
+            img{
+                height: 500px;
+                width: 400px;
+                margin-left: 100px;
+            }
+        }
+
+        .tble{
+
+            height: 500px;
+            width: 900px;
+            background-color: rgba(55, 55, 63, 0.04);
+            
+
+            input[type='text'],
+            input[type='email'],
+            input[type='phone'],
+            input[type='date'],
+            input[type='time'],
+            input[type='peoples']
+
+           
+
+            {
+                height: 35px;
+                width: 235px;
+                border: 1px solid #ced4da;
+                color: #212529;
+                position: relative;
+                top: 80px;
+                margin-left: 40px;
+            }
+            
+            textarea{
+                margin-left: 40px;
+                margin-top: 120px;
+                width: 800px;
+            }
+            
+        }
+
+
+       button{
+
+        @include btn;
+        position: relative;
+        left: -410px;
+        top: 30px;
+       }
+
+       button:hover{
+
+        @include hvr;
+       }
+        
+       
+    }
+
+}

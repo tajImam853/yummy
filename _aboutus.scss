@@ -1,0 +1,137 @@
+.aboutus{
+
+.uss{
+
+h5{
+
+   
+    text-align: center;
+    font-family: sans-serif;
+    color: map-get($colors, "fntclr" );
+    margin-top: 90px;
+}
+
+h1{
+
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: map-get($fonts, "scndsize" );
+
+}
+
+span{
+    color: red;
+}
+
+// p{
+
+//     color: black;
+// }
+}
+
+}
+
+.allt{
+    display: flex;
+}
+
+.scndimg{
+  
+    img{
+   height: 100%;
+   width: 87%;
+   margin-left: 5%;
+
+}
+
+
+}
+
+
+
+.right{
+
+   
+    
+    p{
+
+        color: black;
+        font-family: 'Acme', sans-serif;
+        position: relative;
+        left: -30px;
+
+    }
+
+    i{
+
+        color: red;
+        margin-top: 10px;
+        position: relative;
+        left: -30px;
+    }
+
+    .txt{
+        p{
+          position: relative;
+          top: -34px;
+          margin-left: 20px;
+        }
+    }
+
+    .icn{
+
+        i{
+            @include icntxt;
+        }
+    }
+
+    .txt2{
+        p{
+
+            @include txtonly;
+        }
+    }
+
+    .icn3{
+        i{
+
+            position: relative;
+            top: -70px;
+        }
+    }
+
+    .txt3{
+        p{
+           position: relative;
+           top: -105px;
+           margin-left: 20px;
+        }
+    }
+
+    .txt4{
+        p{
+
+            position: relative;
+            top: -90px;
+        }
+    }
+
+    .pic{
+        img{
+
+            height: 390px;
+            width: 450px;
+            position: relative;
+            top: -70px;
+            left: -40px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

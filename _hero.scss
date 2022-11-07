@@ -1,0 +1,78 @@
+.hero{
+    height: 500px;
+    width: 100%;
+    background-color: map-get($map: $colors, $key: "heroclr");
+   display: flex;
+
+.enjoyhero{
+
+h1{
+    width: 350px;
+    font-family: 'Poor Story', cursive;
+    font-size: 50px;
+    position: relative;
+    left: 150px;
+    top: 80px;
+}
+
+p{
+    font-size: 18px;
+    position: relative;
+    top: 80px;
+    left: 150px;
+    color: grey;
+}
+.butn{
+    display: flex;
+
+    button{
+      @include butn;
+     
+    }
+
+    button:hover{
+
+        @include hvr;
+    }
+
+    .watch{
+
+    
+        .icon{
+
+            color: red;
+            margin-left: 22px;
+            position: relative;
+            top: 108px;
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            margin-left: 40px;
+            position: relative;
+            top: 90px;
+            font-size: 18px;
+        }
+    }
+}
+
+}
+
+
+
+}
+
+
+
+.heroimg{
+
+    img{
+        height: 450px; 
+        width: 450px;
+        margin-left: 500px;
+        margin-top: 25px;
+    }
+}
+
+

@@ -1,0 +1,209 @@
+@mixin btn{
+
+    height: 35px;
+    width: map-get($width , "medium" );
+    background-color:map-get($colors , "btclr" );
+    color: white;
+    border: none;
+    margin-left: 88%;
+    position: relative;
+    top: -78px;
+    border-radius: 50px;
+}
+@mixin hvr {
+    
+    cursor: pointer;
+    background-color: grey;
+}
+
+@mixin butn{
+    
+    height: 35px;
+    width: map-get($width , "large" );
+    background-color: map-get($colors , "btclr" );
+    color: white;
+    border: none;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 50px;
+}
+
+@mixin icntxt {
+    position: relative;
+    top: -34px;
+    
+}
+
+@mixin txtonly {
+    
+    position: relative;
+    margin-left: 20px;
+    top: -70px;
+}
+
+@mixin boxes {
+    
+    height: 355px;
+    width: 280px;
+    background-color: #fff;
+    margin-left: 100px;
+    position: relative;
+    top: 75px;
+
+}
+
+@mixin crcls {
+    
+    height: 60px;
+    width: 60px;
+    margin-left: 38%;
+    position: relative;
+    top: 50px;
+    border-radius: 50px;
+    background-color: rgba(206, 18, 18, 0.1);
+}
+
+@mixin crclicn {
+    color: red;
+    font-size: 30px;
+    margin-left: 18px;
+    position: relative;
+    top: 15px;
+}
+
+@mixin h5s {
+    color: map-get($colors, "fntclr" );
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+
+@mixin pics {
+
+    max-width: 100%;
+        height: 350px;
+        padding: 0 60px;
+        margin-bottom: 15px;
+        vertical-align: middle
+
+}
+
+@mixin h4s {
+    color: map-get($colors, "clr" );
+    width: 200px;
+   
+    font-size: 22px;
+    font-weight: 500;
+    // margin-left: 19.5%;
+    position: relative;
+   top: 20px;
+   left: map-get($map: $bxlft, $key: "fst");
+    font-family: sans-serif;
+}
+
+@mixin ptag {
+    color: #6c757d;
+    width: 300px;
+    font-size: 17px;
+    position: relative;
+    left: map-get($ptaglft, "scnd" );
+    // top: 10px;
+    font-family: sans-serif;
+}
+
+
+@mixin mnuimg {
+    max-width: 100%;
+    height: 350px;
+    position: relative;
+    left: 40px;
+    
+}
+
+@mixin mnuh4 {
+    color: map-get($colors, "clr" );
+        margin-bottom: 5px;
+        font-size: 22px;
+        font-weight: 500;
+        margin-left: 55%;
+        position: relative;
+        top: -20px;
+        font-family: sans-serif;
+}
+
+@mixin mnup {
+    color:map-get($colors, "fntclr" );
+        margin-bottom: 5px;
+        font-family: sans-serif;
+        width: 400px;
+        left: 40%;
+        position: relative;
+        top: -30px;
+}
+
+@mixin mnuprc {
+    font-size: 24px;
+    font-weight: 700;
+    color: map-get($colors,"prcclr" );
+    // margin-left: map-get($mnuprc, "fst" )
+
+}
+
+@mixin h5maintag {
+    color: map-get($colors, "fntclr" );
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: -30px;
+}
+
+@mixin h1maintag {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: map-get($fonts, "scndsize" );
+}
+
+
+@mixin boxxx4 {
+    height: 120px;
+    width: 590px;
+    margin-left: 140px;
+    background: #f4f4f4;
+}
+@mixin icontag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    color: #fff;
+    background: map-get($colors, "prcclr" );
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+@mixin h3maintag {
+    font-size: 20px;
+    color: #6c757d;
+    font-weight: 700;
+    margin-top: -50px;
+    margin-left: 95px;
+    font-family: "Inter", sans-serif;
+}
+
+@mixin pmaintag {
+    font-size: 14px;
+        color: #37373f;
+        font-family: sans-serif;
+        margin-top: -10px;
+        margin-left: 90px;
+}
+
+@mixin ftrh4 {
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 30px;
+    margin-left: 18px;
+}

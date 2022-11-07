@@ -1,0 +1,301 @@
+.items{
+
+    .itms{
+
+        h5{
+
+            color: map-get($colors, "fntclr" );
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 70px;
+           
+        }
+
+        h1{
+
+            font-family: 'Poor Story', cursive;
+            text-align: center;
+            font-size: map-get($fonts, "scndsize" );
+        
+
+        }
+
+        span{
+
+            color: map-get($colors, "prcclr" );
+        } 
+      
+       
+    
+    }
+
+    .navv{
+
+        ul{
+
+            float: right;
+            }
+    
+            li{
+                list-style: none;
+                display: flex;
+                float: left;
+                padding: 18px;
+                position: relative;
+                left: -550px;
+                font-size: 18px;
+                font-family: sans-serif;
+            }
+
+            li:hover{
+
+                cursor: pointer;
+                color: red;
+                transition: 0.3s;
+            }
+      }
+
+    .strter{
+
+        h5{
+
+            @include h5s;
+            margin-top: 100px;
+            text-align: center;
+            margin-left: 28%;
+
+    
+         }
+
+         h3{
+
+            color: map-get($colors, "prcclr" );
+            font-size: 36px;
+            font-weight: 600;
+            font-family: sans-serif;
+            text-align: center;
+            position: relative;
+            top: -30px;
+         }
+         
+    }
+
+    .mainmenu{
+   display: flex;
+
+.menuitem{
+
+
+    img{
+        // max-width: 100%;
+        // height: 350px;
+        // padding: 0 60px;
+        // margin-bottom: 15px;
+        // position: relative;
+        // left: map-get($mnuimglft, "fst" );
+        @include mnuimg;
+        left: map-get($mnuimglft, "fst" )
+      
+
+
+    }
+
+    h4{
+
+        // color: map-get($colors, "clr" );
+        // margin-bottom: 5px;
+        // font-size: 22px;
+        // font-weight: 500;
+        // margin-left: 19.5%;
+        // position: relative;
+        // top: -30px;
+        // font-family: sans-serif;
+        @include mnuh4;
+    }
+
+    p{
+
+        // color:map-get($colors, "fntclr" );
+        // margin-bottom: 5px;
+        // font-family: sans-serif;
+        // margin-left: 16%;
+        // position: relative;
+        // top: -30px;
+        @include mnup;
+    }
+
+    .price{
+        // font-size: 24px;
+        // font-weight: 700;
+        // color: map-get($colors,"prcclr" );
+        // margin-left: 22.3%;
+        @include mnuprc;
+        left: map-get($mnuprc, "fst" )
+    }
+
+
+
+
+}
+
+.menuitem2{
+    img{
+
+        @include mnuimg;
+        left: map-get($mnuimglft, "scnd" );
+    }
+
+    h4{
+
+        @include mnuh4;
+        left: map-get($mnuh4, "scnd" );
+    }
+
+    p{
+
+       @include mnup;
+       left: map-get($ptaglft, "frth" );
+    }
+
+    .prc2{
+        @include mnuprc;
+         left: map-get($mnuprc, "scnd" );
+    }
+}
+
+
+.menuitem3{
+    img{
+        @include mnuimg;
+        left: map-get($mnuimglft, 'third' );
+    }
+
+    h4{
+
+        @include mnuh4;
+        left: map-get($mnuh4, "third" );
+    }
+
+    p{
+        @include mnup;
+        left: map-get($ptaglft, "fifth" );
+    }
+
+    .prc3{
+
+        @include mnuprc;
+        left: map-get($mnuprc, "trd" );
+        
+    }
+}
+
+
+
+
+
+    }
+
+    .mainmenu2{
+        display: flex;
+
+        .menuitem4{
+
+            img{
+        
+                @include mnuimg;
+                left: map-get($mnuimglft, "fst" )
+
+            }
+
+            h4{
+
+                @include mnuh4; 
+                left: map-get($mnuh4, "fst" );
+            }
+
+
+            p{
+
+                @include mnup;
+        
+            }
+
+            .prc4{
+
+                @include mnuprc;
+        left: map-get($mnuprc, "fst" )
+            }
+
+
+        }
+
+
+        .menuitem5{
+
+            img{
+
+                @include mnuimg;
+                left: map-get($mnuimglft, "scnd" );
+            }
+
+            h4{
+
+                @include mnuh4;
+                // left: map-get($mnuh4, "fst" );
+                position: relative;
+                left: 30px;
+
+            }
+
+            p{
+                @include mnup;
+                left: map-get($ptaglft, "frth" );
+            }
+
+            .prc5{
+
+                @include mnuprc;
+         left: map-get($mnuprc, "scnd" );
+            }
+        }
+
+
+        .menuitem6{
+
+            img{
+
+                @include mnuimg;
+                left: map-get($mnuimglft, 'third' );  
+            }
+
+           h4{
+
+            
+        @include mnuh4;
+        position: relative;
+        left:60px;
+        
+        
+           }
+
+           p{
+            @include mnup;
+            left: 200px;
+
+           }
+
+           .prc6{
+
+            @include mnuprc;
+            @include mnuprc;
+            left: map-get($mnuprc, "trd" );
+           
+           }
+        }
+    }
+
+    
+    }
+
+    
+
